@@ -1,0 +1,42 @@
+1. SOLID principle:
+ 1.1. S(Single-Responsibily Principle):
+	The Single Responsibility Principle requires that a class should have only one job. So if a class has more than one responsibility, it becomes coupled. A change to one responsibility results to modification of the other responsibility.
+
+Example_1:
+	Class with two responsibilities:
+
+class  Student:
+
+    def __init__(self, std_name):
+        self.std_name = std_name
+    
+
+    def get_name(self):
+        pass
+
+
+    def save(self, std_detail):
+        pass
+
+Example_2:
+	Responsibilities divided into two different classes:
+
+
+class Student:
+
+    def __init__(self, std_name):
+            self.std_name = std_name
+    
+
+    def get_name(self):
+        pass
+
+
+class StudentDB:
+
+    def get_student(self, id):
+        pass
+
+
+    def save(self, std_detail):
+        pass
