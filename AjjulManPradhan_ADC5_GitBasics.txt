@@ -1,0 +1,14 @@
+Git Basics:
+The basic features of Git are listed below:
+
+1) Git clone: Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+
+2) Git push: Updates remote refs using local refs, while sending objects necessary to complete the given refs.
+
+3) Git pull: Incorporates changes from a remote repository into the current branch.
+
+4) Merge conflict: Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file. 
+
+5) Git branches: Use a branch to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branches. You can merge a branch into another branch using a pull request.
+
+6) Git commit: The "commit" command is used to save your changes to the local repository.
