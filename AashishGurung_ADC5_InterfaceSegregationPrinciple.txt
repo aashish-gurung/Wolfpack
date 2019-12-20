@@ -1,0 +1,7 @@
+Interface segregation principle:
+	Interface segregation principle states that no client should be forced to depend on methods it does not
+use. It means that larger interfaces should be split into smaller ones which ensure that implementing
+classes only need to be concerned about the methods that are of interest to them. These types of
+shrunken interfaces are also called role interfaces. For example, A system may become so coupled at
+multiple levels that it is no longer possible to make a change in one place without necessitating many
+additional changes so by using an interface can prevent this side effect.
