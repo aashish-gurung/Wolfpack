@@ -1,0 +1,17 @@
+Git Basics:
+	
+Git clone:
+	Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned 
+repository and creates and checks out an initial branch that is forked from the cloned repository’s currently active 
+branch.
+git push:
+	
+Git pull:
+	The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits 
+from your local repository to a remote repo.
+
+Merge conflict:
+	The git merge command's primary responsibility is to combine separate branches and resolve any conflicting edits.
+	
+Git commit:
+	The git commit command will save all staged changes, along with a brief description from the user, in a “commit” to the local repository.
